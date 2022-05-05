@@ -1,18 +1,46 @@
-﻿body {
+﻿@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+
+body {
+    background: rgb(242, 230, 255); 
     padding-top: 50px;
     padding-bottom: 20px;
+
 }
 
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
+#CardUI {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 228px;
+    font-family: 'Raleway', sans-serif;
+    font-weight:bold;
+    color: #4d4d4d;
 }
 
-/* Override the default bootstrap behavior where horizontal description lists 
+#CardUI .section {
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+    padding: 8px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    width: 100px;
+    height: auto;
+    display: flex;
+}
+
+    #CardUI .section img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        margin-right: 15px;
+        border: 1px solid #f2f2f2;
+    }
+
+        /* Override the default bootstrap behavior where horizontal description lists 
    will truncate terms that are too long to fit in the left column 
 */
-.dl-horizontal dt {
+        .dl-horizontal dt {
     white-space: normal;
 }
 
